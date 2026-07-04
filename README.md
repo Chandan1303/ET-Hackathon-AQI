@@ -1,8 +1,8 @@
-# AirVision - Real-Time Air Quality Intelligence Platform
+# Urban Eco OS - Real-Time Air Quality Intelligence Platform
 
 <div align="center">
 
-![AirVision](frontend/src/assets/hero.png)
+![Urban Eco OS](frontend/src/assets/hero.png)
 
 **Enterprise-grade Air Quality Monitoring & Predictive Analytics System**
 
@@ -17,7 +17,7 @@
 
 ## 🌍 Overview
 
-**AirVision** is a comprehensive air quality monitoring platform that combines real-time data visualization, AI-powered compliance checking, and predictive analytics. Built for the Economic Times Hackathon, it provides actionable insights for environmental monitoring, industrial compliance, and public health advisories.
+**Urban Eco OS** is a comprehensive air quality monitoring platform that combines real-time data visualization, AI-powered compliance checking, and predictive analytics. Built for the Economic Times Hackathon, it provides actionable insights for environmental monitoring, industrial compliance, and public health advisories.
 
 ### 🎯 Key Features
 
@@ -36,7 +36,7 @@
 ## 🏗️ Architecture
 
 ```
-AirVision/
+Urban-Eco-OS/
 ├── frontend/          # React + Vite frontend application
 │   ├── src/
 │   │   ├── components/     # React components
@@ -133,7 +133,7 @@ The AI service will run on `http://localhost:8000`
 
 ## 🔑 API Keys Setup
 
-AirVision requires several API keys for full functionality:
+Urban Eco OS requires several API keys for full functionality:
 
 ### Required APIs
 
