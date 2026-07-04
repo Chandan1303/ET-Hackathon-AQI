@@ -1,0 +1,75 @@
+GRADED RESPONSE ACTION PLAN (GRAP) FOR AIR QUALITY MANAGEMENT
+================================================================
+
+Stage I - POOR (AQI 201-300):
+Actions:
+- Mechanized sweeping and water sprinkling on identified roads
+- Ensuring pollution under control (PUC) certification for all vehicles
+- Enforcement of dust control measures at construction sites
+- Promotion of public transport and carpooling
+- Hot mix plants and stone crushers to operate only during daytime
+- Strict enforcement of ban on burning of biomass, municipal solid waste
+
+Stage II - VERY POOR (AQI 301-400):
+All Stage I actions PLUS:
+- Ban on use of diesel generator sets (except for essential services)
+- Enhanced parking fees (3-4 times) to discourage private transport
+- Intensified inspections for industrial emissions compliance
+- Task force formation for immediate action on pollution sources
+- Restriction on trucks registered before 2011 (except essential goods)
+- Mandatory work-from-home for 50% of staff in government offices
+
+Stage III - SEVERE (AQI 401-450):
+All Stage I & II actions PLUS:
+- Ban on construction and demolition activities
+- Stop operations of brick kilns, hot mix plants, and stone crushers
+- Ban on non-CNG/non-electric inter-state buses
+- Prohibition on non-essential commercial vehicle movement
+- Closure of schools (except exams) - online classes recommended
+- Restriction on BS-III petrol and BS-IV diesel vehicles
+- Mandatory work-from-home for 75% of government staff
+
+Stage IV - SEVERE+ (AQI > 450) - EMERGENCY:
+All Stage I, II & III actions PLUS:
+- Complete ban on truck entry (except LNG/CNG/electric/essential supplies)
+- Ban on diesel vehicles (except BS-VI)
+- Restriction on non-essential offices - physical attendance only 33%
+- Decision on odd-even vehicle rationing
+- Complete shutdown of all non-essential industries
+- Complete ban on all construction activities
+- Consideration of lockdown measures in consultation with state governments
+
+ENFORCEMENT PROTOCOL:
+- Environment Pollution Control Authority (EPCA) coordinates all actions
+- Commission for Air Quality Management (CAQM) has supreme authority
+- State Pollution Control Boards implement ground-level enforcement
+- Real-time monitoring through CAAQMS network mandatory
+- Violations attract penalties: ₹1 lakh - ₹5 lakh for industries, ₹5,000 - ₹50,000 for individuals
+
+INDUSTRIAL RESPONSE REQUIREMENTS:
+- Industries must maintain stack emission monitoring systems
+- Real-time emission data transmission to pollution control boards
+- Emergency action plans submitted annually
+- Fuel switching capability (coal to gas) mandatory for all industries
+- Installation of air pollution control devices non-negotiable
+
+METEOROLOGICAL CONSIDERATIONS:
+- Wind speed < 10 km/h exacerbates pollution accumulation
+- Temperature inversion layers trap pollutants - common Oct-Feb
+- Relative humidity > 80% enhances secondary aerosol formation
+- Coordination with India Meteorological Department (IMD) for forecasting
+
+PUBLIC HEALTH ADVISORIES:
+- N95/N99 masks mandatory in Severe and Severe+ categories
+- Indoor air purifiers recommended (HEPA filters)
+- Schools to reschedule outdoor activities
+- Hospitals to prepare for respiratory emergency admissions
+- Vulnerable populations to avoid outdoor exposure
+
+COORDINATION MECHANISM:
+- Daily review meetings during Stage III and IV
+- Real-time WhatsApp group for rapid communication
+- Drone surveillance for unauthorized construction/burning
+- Mobile air quality vans for hotspot identification
+- 24x7 control room operations during emergency stages
+

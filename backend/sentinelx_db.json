@@ -1,0 +1,209 @@
+{
+  "permits": [
+    {
+      "id": "PTW-2026-001",
+      "zone": "Zone A (Assembly Line)",
+      "type": "Electrical Isolation",
+      "status": "Active",
+      "workerId": "EMP-102",
+      "workerName": "Alice Johnson",
+      "createdAt": "2026-06-30T14:20:44.356Z",
+      "description": "LOTO on primary conveyor motor assembly."
+    },
+    {
+      "id": "PTW-2026-002",
+      "zone": "Zone C (Welding Area)",
+      "type": "Hot Work",
+      "status": "Pending",
+      "workerId": "EMP-104",
+      "workerName": "Bob Miller",
+      "createdAt": "2026-06-30T14:20:44.357Z",
+      "description": "Welding and structural repair of support columns."
+    },
+    {
+      "id": "PTW-2026-003",
+      "createdAt": "2026-07-01T03:38:40.791Z",
+      "zone": "Zone A (Assembly Line)",
+      "type": "Electrical Isolation",
+      "workerId": "EMP-105",
+      "workerName": "Sarah Davis",
+      "description": "Zone A",
+      "status": "Active"
+    }
+  ],
+  "telemetry": [
+    {
+      "id": "S-ZA-TEMP",
+      "zone": "Zone A (Assembly Line)",
+      "type": "temperature",
+      "value": 24.8,
+      "status": "Normal",
+      "timestamp": "2026-07-01T04:27:21.461Z"
+    },
+    {
+      "id": "S-ZA-GAS",
+      "zone": "Zone A (Assembly Line)",
+      "type": "gas",
+      "value": 43.7,
+      "status": "Normal",
+      "timestamp": "2026-07-01T04:27:21.461Z"
+    },
+    {
+      "id": "S-ZB-TEMP",
+      "zone": "Zone B (Chemical Storage)",
+      "type": "temperature",
+      "value": 24.3,
+      "status": "Normal",
+      "timestamp": "2026-07-01T04:27:21.461Z"
+    },
+    {
+      "id": "S-ZB-GAS",
+      "zone": "Zone B (Chemical Storage)",
+      "type": "gas",
+      "value": 29.7,
+      "status": "Normal",
+      "timestamp": "2026-07-01T04:27:21.461Z"
+    },
+    {
+      "id": "S-ZC-TEMP",
+      "zone": "Zone C (Welding Area)",
+      "type": "temperature",
+      "value": 33.3,
+      "status": "Normal",
+      "timestamp": "2026-07-01T04:27:21.461Z"
+    },
+    {
+      "id": "S-ZC-GAS",
+      "zone": "Zone C (Welding Area)",
+      "type": "gas",
+      "value": 14.1,
+      "status": "Normal",
+      "timestamp": "2026-07-01T04:27:21.461Z"
+    },
+    {
+      "id": "S-ZD-TEMP",
+      "zone": "Zone D (Control Room)",
+      "type": "temperature",
+      "value": 20.9,
+      "status": "Normal",
+      "timestamp": "2026-07-01T04:27:21.461Z"
+    },
+    {
+      "id": "S-ZD-GAS",
+      "zone": "Zone D (Control Room)",
+      "type": "gas",
+      "value": 10.1,
+      "status": "Normal",
+      "timestamp": "2026-07-01T04:27:21.461Z"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "INC-2026-001",
+      "zone": "Zone C (Welding Area)",
+      "type": "PPE Violation",
+      "severity": "Medium",
+      "description": "Worker detected welding without safety goggles.",
+      "status": "Mitigated",
+      "timestamp": "2026-06-30T13:20:44.357Z"
+    },
+    {
+      "id": "INC-2026-002",
+      "timestamp": "2026-06-30T14:41:08.761Z",
+      "status": "Resolved",
+      "zone": "Zone A (Assembly Line)",
+      "type": "PPE Violation",
+      "severity": "Medium",
+      "description": "John Doe (EMP-101) detected entering zone without hard hat."
+    },
+    {
+      "id": "INC-2026-003",
+      "timestamp": "2026-06-30T14:43:06.105Z",
+      "status": "Active",
+      "zone": "Zone B (Chemical Storage)",
+      "type": "PPE Violation",
+      "severity": "Medium",
+      "description": "Frank Wright (EMP-103) detected without safety glasses in active work area."
+    },
+    {
+      "id": "INC-2026-004",
+      "timestamp": "2026-06-30T14:52:22.787Z",
+      "status": "Active",
+      "zone": "Zone C (Welding Area)",
+      "type": "PPE Violation",
+      "severity": "Medium",
+      "description": "Bob Miller (EMP-104) detected entering zone without hard hat."
+    },
+    {
+      "id": "INC-2026-005",
+      "timestamp": "2026-07-01T03:44:47.530Z",
+      "status": "Active",
+      "zone": "Zone A (Assembly Line)",
+      "type": "PPE Violation",
+      "severity": "Medium",
+      "description": "Alice Johnson (EMP-102) detected entering zone without hard hat."
+    }
+  ],
+  "logs": [
+    {
+      "id": "LOG-001",
+      "timestamp": "2026-06-30T14:20:44.357Z",
+      "message": "SentinelX AI Safety Platform initialized.",
+      "category": "System"
+    },
+    {
+      "id": "LOG-1782829244366-611",
+      "timestamp": "2026-06-30T14:20:44.366Z",
+      "message": "IoT and SCADA Simulator started.",
+      "category": "System"
+    },
+    {
+      "id": "LOG-1782830468767-449",
+      "timestamp": "2026-06-30T14:41:08.767Z",
+      "message": "Incident Alert: PPE Violation (Medium) detected in Zone A (Assembly Line)",
+      "category": "CV"
+    },
+    {
+      "id": "LOG-1782830586107-370",
+      "timestamp": "2026-06-30T14:43:06.107Z",
+      "message": "Incident Alert: PPE Violation (Medium) detected in Zone B (Chemical Storage)",
+      "category": "CV"
+    },
+    {
+      "id": "LOG-1782831142790-823",
+      "timestamp": "2026-06-30T14:52:22.800Z",
+      "message": "Incident Alert: PPE Violation (Medium) detected in Zone C (Welding Area)",
+      "category": "CV"
+    },
+    {
+      "id": "LOG-1782877036264-611",
+      "timestamp": "2026-07-01T03:37:16.264Z",
+      "message": "IoT and SCADA Simulator started.",
+      "category": "System"
+    },
+    {
+      "id": "LOG-1782877120795-212",
+      "timestamp": "2026-07-01T03:38:40.795Z",
+      "message": "New permit issued: Electrical Isolation in Zone A (Assembly Line) (ID: PTW-2026-003)",
+      "category": "System"
+    },
+    {
+      "id": "LOG-1782877129420-322",
+      "timestamp": "2026-07-01T03:38:49.420Z",
+      "message": "Incident INC-2026-002 (PPE Violation) resolved.",
+      "category": "System"
+    },
+    {
+      "id": "LOG-1782877487544-625",
+      "timestamp": "2026-07-01T03:44:47.544Z",
+      "message": "Incident Alert: PPE Violation (Medium) detected in Zone A (Assembly Line)",
+      "category": "CV"
+    }
+  ],
+  "emergency": {
+    "active": false,
+    "zone": null,
+    "reason": null,
+    "startedAt": null
+  }
+}

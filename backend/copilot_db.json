@@ -1,0 +1,409 @@
+{
+  "equipment": [
+    {
+      "tag": "STN-A",
+      "name": "Station A - Commercial Center",
+      "location": "Zone A (Commercial Center)",
+      "status": "Online",
+      "healthScore": 94,
+      "rulDays": 180,
+      "vendor": "EnviroTech Corp",
+      "installDate": "2022-03-15"
+    },
+    {
+      "tag": "STN-B",
+      "name": "Station B - Industrial Corridor",
+      "location": "Zone B (Industrial Area)",
+      "status": "Warning",
+      "healthScore": 68,
+      "rulDays": 45,
+      "vendor": "SensAir Ltd",
+      "installDate": "2021-08-10"
+    },
+    {
+      "tag": "STN-C",
+      "name": "Station C - Residential Greenbelt",
+      "location": "Zone C (Residential District)",
+      "status": "Online",
+      "healthScore": 96,
+      "rulDays": 320,
+      "vendor": "AeroGuard Global",
+      "installDate": "2023-01-22"
+    },
+    {
+      "tag": "STN-D",
+      "name": "Station D - Coastal Port Corridor",
+      "location": "Zone D (Coastal Greenbelt)",
+      "status": "Online",
+      "healthScore": 90,
+      "rulDays": 200,
+      "vendor": "EnviroTech Corp",
+      "installDate": "2024-05-18"
+    }
+  ],
+  "sensors": [
+    {
+      "id": "SEN-STNA-PM25",
+      "equipmentTag": "STN-A",
+      "name": "PM2.5 Particulate",
+      "value": 52.17,
+      "unit": "µg/m³",
+      "status": "Normal",
+      "timestamp": "2026-07-04T10:35:52.176Z"
+    },
+    {
+      "id": "SEN-STNA-PM10",
+      "equipmentTag": "STN-A",
+      "name": "PM10 Particulate",
+      "value": 93.91,
+      "unit": "µg/m³",
+      "status": "Normal",
+      "timestamp": "2026-07-04T10:35:52.176Z"
+    },
+    {
+      "id": "SEN-STNA-NO2",
+      "equipmentTag": "STN-A",
+      "name": "Nitrogen Dioxide",
+      "value": 17,
+      "unit": "ppb",
+      "status": "Normal",
+      "timestamp": "2026-07-04T10:35:52.176Z"
+    },
+    {
+      "id": "SEN-STNB-PM25",
+      "equipmentTag": "STN-B",
+      "name": "PM2.5 Particulate",
+      "value": 91.62,
+      "unit": "µg/m³",
+      "status": "Critical",
+      "timestamp": "2026-07-04T10:35:52.176Z"
+    },
+    {
+      "id": "SEN-STNB-PM10",
+      "equipmentTag": "STN-B",
+      "name": "PM10 Particulate",
+      "value": 146.6,
+      "unit": "µg/m³",
+      "status": "Warning",
+      "timestamp": "2026-07-04T10:35:52.176Z"
+    },
+    {
+      "id": "SEN-STNB-NO2",
+      "equipmentTag": "STN-B",
+      "name": "Nitrogen Dioxide",
+      "value": 35.74,
+      "unit": "ppb",
+      "status": "Normal",
+      "timestamp": "2026-07-04T10:35:52.176Z"
+    },
+    {
+      "id": "SEN-STNC-PM25",
+      "equipmentTag": "STN-C",
+      "name": "PM2.5 Particulate",
+      "value": 25.97,
+      "unit": "µg/m³",
+      "status": "Normal",
+      "timestamp": "2026-07-04T10:35:52.176Z"
+    },
+    {
+      "id": "SEN-STND-PM25",
+      "equipmentTag": "STN-D",
+      "name": "PM2.5 Particulate",
+      "value": 35.1,
+      "unit": "µg/m³",
+      "status": "Normal",
+      "timestamp": "2026-07-04T10:35:52.176Z"
+    },
+    {
+      "id": "SEN-MET-TEMP",
+      "equipmentTag": "STN-A",
+      "name": "Ambient Temperature",
+      "value": 30.92,
+      "unit": "°C",
+      "status": "Normal",
+      "timestamp": "2026-07-04T10:35:52.176Z"
+    },
+    {
+      "id": "SEN-MET-HUMID",
+      "equipmentTag": "STN-A",
+      "name": "Relative Humidity",
+      "value": 69.84,
+      "unit": "%",
+      "status": "Normal",
+      "timestamp": "2026-07-04T10:35:52.176Z"
+    },
+    {
+      "id": "SEN-MET-WIND-SPD",
+      "equipmentTag": "STN-A",
+      "name": "Wind Speed",
+      "value": 3.05,
+      "unit": "m/s",
+      "status": "Normal",
+      "timestamp": "2026-07-04T10:35:52.176Z"
+    },
+    {
+      "id": "SEN-MET-WIND-DIR",
+      "equipmentTag": "STN-A",
+      "name": "Wind Direction",
+      "value": 136,
+      "unit": "°",
+      "status": "Normal",
+      "timestamp": "2026-07-04T10:35:52.176Z"
+    },
+    {
+      "id": "SEN-MET-RAIN",
+      "equipmentTag": "STN-C",
+      "name": "Precipitation Rainfall",
+      "value": 0,
+      "unit": "mm",
+      "status": "Normal",
+      "timestamp": "2026-07-04T10:35:52.176Z"
+    }
+  ],
+  "maintenance": [
+    {
+      "id": "INT-001",
+      "equipmentTag": "STN-B",
+      "type": "Source Control",
+      "technician": "Sarah Davis",
+      "details": "Construction suspension and road water spraying deployed in Zone B Corridor.",
+      "downtimeHours": 4,
+      "spareParts": [
+        "Water Sprayer Tanker",
+        "Traffic Diversion Cones"
+      ],
+      "priority": "High",
+      "timestamp": "2026-07-01T10:34:23.939Z"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "INC-001",
+      "equipmentTag": "STN-B",
+      "type": "Hyperlocal AQI Spike",
+      "severity": "High",
+      "description": "Particulate matter PM2.5 in Industrial Zone B exceeded municipal safety limits, peaking at 142 µg/m³.",
+      "rootCause": "Low wind dispersion coupled with illegal crop burning residues and heavy truck congestion.",
+      "status": "Active",
+      "timestamp": "2026-07-04T10:34:23.939Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "DOC-REG-GRAP",
+      "title": "Graded Response Action Plan (GRAP) Guidelines",
+      "category": "Regulation",
+      "content": "Graded Response Action Plan Stage II Guidelines. When PM2.5 exceeds 120 ug/m3, municipal commissioners must mandate construction pauses, deploy mechanical road sweepers, divert heavy commercial vehicles from downtown residential streets, and issue outdoor warnings for schools.",
+      "metadata": {
+        "author": "Ministry of Environment",
+        "version": "2025-Rev",
+        "targetEquipment": "All"
+      }
+    },
+    {
+      "id": "DOC-SOP-HEAT",
+      "title": "SOP-301: Heatwave Emergency Protocol",
+      "category": "SOP",
+      "content": "Heatwave Emergency Standard Operating Procedure. If air temperature hits 40°C or relative humidity increases heat index past 42°C, municipal staff must open designated public cooling centers, suspend heavy outdoor construction work from 12 PM to 4 PM, and dispatch emergency medical teams for heatstroke triage.",
+      "metadata": {
+        "author": "Disaster Mgmt Authority",
+        "version": "1.2",
+        "targetEquipment": "All"
+      }
+    },
+    {
+      "id": "DOC-SOP-FLOOD",
+      "title": "SOP-401: Flash Flood Waterlogging Action Plan",
+      "category": "SOP",
+      "content": "Flash Flood response SOP. If hourly precipitation rainfall exceeds 30mm, trigger automatic waterlogging risk alerts. Deploy emergency storm pumps to Underpass B-12 and close flooded traffic arteries. Advise citizens to avoid waterlogged roads.",
+      "metadata": {
+        "author": "Urban Drainage Dept",
+        "version": "2.0",
+        "targetEquipment": "All"
+      }
+    }
+  ],
+  "users": [
+    {
+      "username": "admin",
+      "name": "Sarah Davis",
+      "role": "Admin",
+      "department": "City Administration",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f"
+    },
+    {
+      "username": "safety",
+      "name": "Alice Johnson",
+      "role": "Safety Officer",
+      "department": "HSE Environmental Inspectorate",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f"
+    },
+    {
+      "username": "engineer",
+      "name": "John Doe",
+      "role": "Engineer",
+      "department": "Air Quality Research",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f"
+    },
+    {
+      "username": "technician",
+      "name": "Bob Miller",
+      "role": "Technician",
+      "department": "Field Operations & Dispatch",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f"
+    },
+    {
+      "username": "chandan",
+      "name": "Chandan",
+      "role": "Safety Officer",
+      "department": "Operations",
+      "passwordHash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOT-001",
+      "type": "High Risk",
+      "message": "Hyperlocal AQI Spike at Station B. Wind carrying industrial plume towards Zone C Residential.",
+      "timestamp": "2026-07-04T10:34:23.939Z",
+      "read": false
+    }
+  ],
+  "logs": [
+    {
+      "id": "SYS-LOG-001",
+      "timestamp": "2026-07-04T10:34:23.939Z",
+      "message": "AI Urban Environmental Platform Database initialized.",
+      "category": "System"
+    },
+    {
+      "id": "LOG-1783161263947-430",
+      "timestamp": "2026-07-04T10:34:23.947Z",
+      "message": "Environmental Decision simulator initialized.",
+      "category": "System"
+    }
+  ],
+  "timeline": [
+    {
+      "timestamp": "08:00:00",
+      "title": "Shift Started",
+      "details": "Morning environmental operations shift started. Sensor verification completed.",
+      "zone": "System",
+      "parameters": {}
+    },
+    {
+      "timestamp": "08:30:00",
+      "title": "Industrial Zone Emission Spike",
+      "details": "Station B recorded elevated PM10 particulate readings.",
+      "zone": "Zone B (Industrial Area)",
+      "parameters": {
+        "SEN-STNB-PM10": 180
+      }
+    },
+    {
+      "timestamp": "09:15:00",
+      "title": "GRAP Notification Issued",
+      "details": "Compliance advisory generated recommending road water spraying.",
+      "zone": "Zone B (Industrial Area)",
+      "parameters": {}
+    },
+    {
+      "timestamp": "09:45:00",
+      "title": "Road Water Spraying Initiated",
+      "details": "Technician dispatched water tanker to commercial corridors.",
+      "zone": "Zone A (Commercial Center)",
+      "parameters": {}
+    },
+    {
+      "timestamp": "10:07:00",
+      "title": "AQI Warning Active",
+      "details": "Particulate levels peaked at 142.5 ug/m3 in industrial corridor.",
+      "zone": "Zone B (Industrial Area)",
+      "parameters": {
+        "SEN-STNB-PM25": 142.5
+      }
+    }
+  ],
+  "workflows": [
+    {
+      "id": "WF-001",
+      "incidentId": "INC-001",
+      "equipmentTag": "STN-B",
+      "tasks": [
+        {
+          "id": "T1",
+          "name": "Deploy mechanical water sprayers in Zone B corridor",
+          "status": "Completed",
+          "assignedTo": "Bob Miller"
+        },
+        {
+          "id": "T2",
+          "name": "Suspend commercial excavation sites within 1km of Station B",
+          "status": "Pending",
+          "assignedTo": "Alice Johnson"
+        },
+        {
+          "id": "T3",
+          "name": "Divert heavy trucks to Outer Ring road",
+          "status": "Pending",
+          "assignedTo": "Traffic Dispatch"
+        },
+        {
+          "id": "T4",
+          "name": "Issue localized Asthma risk alerts to schools in Zone C",
+          "status": "Completed",
+          "assignedTo": "Sarah Davis"
+        }
+      ]
+    }
+  ],
+  "factory_memory": [
+    {
+      "timestamp": "2025-11-12T10:30:00Z",
+      "equipmentTag": "STN-B",
+      "incidentType": "Pollution Spike",
+      "details": "Winter crop burning plume intercepted. gridded spraying reduced PM10 by 24 ug/m3 in 4 hours.",
+      "technician": "Alice Johnson"
+    }
+  ],
+  "learning_ledger": [
+    {
+      "timestamp": "2026-07-04T10:34:23.939Z",
+      "type": "Vector Update",
+      "details": "Indexed GRAP-II SOP guidelines. Learned 6 atmospheric correlation rules.",
+      "version": "v2.0.1"
+    },
+    {
+      "timestamp": "2026-07-04T10:34:23.939Z",
+      "type": "Model Adjustment",
+      "details": "Retrained source attribution coefficients on June 2026 industrial traffic logs.",
+      "version": "v2.1.0"
+    }
+  ],
+  "ledger": [
+    {
+      "id": "GENESIS-BLOCK-0",
+      "timestamp": "2026-07-01T08:00:00.000Z",
+      "action": "Urban Environmental Operations Ledger initialized. Secure SHA-256 blockchain tracking active.",
+      "performedBy": "HSE compliance System",
+      "previousHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "4d8e5f2dfa2a3e813a36db5e17a419266a1a1f0a1cbbd25c4efc78b4097f394f"
+    },
+    {
+      "id": "BLK-1783161299367-34",
+      "timestamp": "2026-07-04T10:34:59.367Z",
+      "action": "New user registered: Chandan (Safety Officer)",
+      "performedBy": "HSE Authentication Gateway",
+      "previousHash": "4d8e5f2dfa2a3e813a36db5e17a419266a1a1f0a1cbbd25c4efc78b4097f394f",
+      "hash": "2bd50f3ef20d6b6a0a26c10a947ed0692005fb09e537e05a17da4cbf8f316ea2"
+    },
+    {
+      "id": "BLK-1783161302883-579",
+      "timestamp": "2026-07-04T10:35:02.883Z",
+      "action": "User logged in: Chandan (Safety Officer)",
+      "performedBy": "HSE Authentication Gateway",
+      "previousHash": "2bd50f3ef20d6b6a0a26c10a947ed0692005fb09e537e05a17da4cbf8f316ea2",
+      "hash": "b74257a02f839718a8873f9caeaa54da67f3229a4f83416b734122e497f7953c"
+    }
+  ]
+}

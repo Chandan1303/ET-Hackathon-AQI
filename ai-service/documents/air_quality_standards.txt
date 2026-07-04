@@ -1,0 +1,63 @@
+NATIONAL AMBIENT AIR QUALITY STANDARDS (NAAQS)
+=========================================
+
+Pollutant Standards for India (µg/m³):
+
+PM2.5 (Fine Particulate Matter):
+- Annual Average: 40 µg/m³
+- 24-hour Average: 60 µg/m³
+- Health Advisory: Levels above 150 µg/m³ require immediate action
+
+PM10 (Respirable Particulate Matter):
+- Annual Average: 60 µg/m³
+- 24-hour Average: 100 µg/m³
+
+Nitrogen Dioxide (NO2):
+- Annual Average: 40 µg/m³
+- 24-hour Average: 80 µg/m³
+
+Sulfur Dioxide (SO2):
+- Annual Average: 50 µg/m³
+- 24-hour Average: 80 µg/m³
+
+Carbon Monoxide (CO):
+- 8-hour Average: 2 mg/m³
+- 1-hour Average: 4 mg/m³
+
+Ozone (O3):
+- 8-hour Average: 100 µg/m³
+- 1-hour Average: 180 µg/m³
+
+Lead (Pb):
+- Annual Average: 0.5 µg/m³
+- Quarterly Average: 1.0 µg/m³
+
+Air Quality Index (AQI) Categories:
+- Good (0-50): Minimal impact
+- Satisfactory (51-100): Minor breathing discomfort to sensitive people
+- Moderate (101-200): Breathing discomfort to people with lung, heart disease
+- Poor (201-300): Breathing discomfort to most people on prolonged exposure
+- Very Poor (301-400): Respiratory illness on prolonged exposure
+- Severe (401-500): Affects healthy people and seriously impacts those with existing diseases
+
+Emergency Response Thresholds:
+- AQI > 300: Ban on construction activities, brick kilns
+- AQI > 400: Graded Response Action Plan (GRAP) Stage 4 implementation
+- PM2.5 > 250 µg/m³: School closures and work-from-home advisories
+
+Monitoring Requirements:
+- Continuous Ambient Air Quality Monitoring Stations (CAAQMS) required every 10 km in urban areas
+- Real-time data reporting every 15 minutes
+- Calibration and quality assurance quarterly
+
+Health Impact Guidelines:
+- Sensitive groups include children, elderly, pregnant women, and those with respiratory/cardiac conditions
+- Outdoor activities should be limited when AQI exceeds 200
+- Indoor air purification recommended when PM2.5 exceeds 100 µg/m³
+
+Industrial Emission Standards:
+- Thermal power plants: Particulate matter < 30 mg/Nm³
+- Cement plants: PM < 30 mg/Nm³, SO2 < 200 mg/Nm³
+- Iron & Steel: PM < 50 mg/Nm³
+- Vehicle emissions: BS-VI standards mandatory in all urban areas
+

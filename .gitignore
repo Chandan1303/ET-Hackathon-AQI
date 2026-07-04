@@ -1,0 +1,97 @@
+# Environment Variables (IMPORTANT: Never commit API keys!)
+.env
+*.env
+!.env.example
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+ai-service/venv/
+ai-service/__pycache__/
+
+# Build outputs
+frontend/dist/
+frontend/build/
+backend/dist/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# Operating System
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Database files (if any)
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Documentation (keep only essential)
+DEBUG_STEPS.md
+DIAGNOSE_AQI_ISSUE.md
+TEST_OPENWEATHER_API.md
+HEATMAP_LOCATION_GUIDE.md
+ALL_*.md
+BEFORE_*.md
+CHANGES_*.md
+CLEAR_*.md
+CORS_*.md
+DYNAMIC_*.md
+ENV_*.md
+FINAL_*.md
+FIX_*.md
+FORCE_*.md
+GLOBAL_*.md
+GOOGLE_*.md
+HEATMAP_ERROR*.md
+LATEST_*.md
+LAUNCH_*.md
+LEDGER_*.md
+LIGHT_*.md
+MODERN_*.md
+NEW_*.md
+PREMIUM_*.md
+QUICK_*.md
+TEXT_*.md
+USER_*.md
+VISUAL_*.md
+WHAT_*.md
+API_*.md
+
+# Keep these important docs
+!README.md
+!PROJECT_DOCUMENTATION.md
+!LINKEDIN_POSTS.md
+!HEATMAP_FEATURES.md

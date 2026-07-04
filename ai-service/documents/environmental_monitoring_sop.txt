@@ -1,0 +1,134 @@
+STANDARD OPERATING PROCEDURE (SOP-ENV-001)
+CONTINUOUS AMBIENT AIR QUALITY MONITORING STATIONS (CAAQMS)
+=============================================================
+
+PURPOSE:
+Establish standardized procedures for operating and maintaining Continuous Ambient Air Quality Monitoring Stations to ensure accurate, reliable, and consistent air quality data collection.
+
+SCOPE:
+Applies to all CAAQMS operators, technicians, and environmental officers responsible for air quality monitoring across urban and industrial zones.
+
+EQUIPMENT SPECIFICATIONS:
+- PM2.5 & PM10: Beta Attenuation Monitor (BAM) or Tapered Element Oscillating Microbalance (TEOM)
+- SO2: UV Fluorescence Method
+- NO2: Chemiluminescence Method
+- CO: Non-Dispersive Infrared (NDIR) Method
+- O3: UV Photometric Method
+- Meteorological Sensors: Temperature, Humidity, Wind Speed/Direction, Barometric Pressure
+
+CALIBRATION REQUIREMENTS:
+Daily:
+- Zero and span calibration checks
+- Verification of data logger time synchronization
+- Visual inspection of inlet filters and sampling lines
+
+Weekly:
+- Multipoint calibration verification
+- Flow rate validation (±5% tolerance)
+- PM sampling head cleaning
+
+Monthly:
+- Full calibration using certified reference gases
+- Leak test of sampling manifold
+- Meteorological sensor verification against reference instruments
+
+Quarterly:
+- Performance audit by third-party agency
+- Replacement of critical consumables (filters, tubing)
+- Data quality assurance report submission
+
+ROUTINE OPERATIONS:
+1. Morning Checklist (08:00 hours):
+   - Check power supply and UPS status
+   - Verify real-time data transmission to central server
+   - Inspect physical integrity of monitoring shelter
+   - Record ambient conditions in logbook
+
+2. Data Verification (12:00 hours):
+   - Review live data trends for anomalies
+   - Flag invalid data points (calibration periods, power failures)
+   - Cross-check with neighboring stations for consistency
+
+3. Evening Checklist (18:00 hours):
+   - Download backup data to local storage
+   - Generate preliminary 24-hour average reports
+   - Communicate exceedances to control room
+
+ALARM THRESHOLDS:
+- PM2.5 > 150 µg/m³: Issue "Very Poor" advisory
+- PM2.5 > 250 µg/m³: Trigger GRAP Stage III protocols
+- PM10 > 350 µg/m³: Alert industrial sources for emission control
+- SO2 > 200 µg/m³: Immediate industrial stack inspection
+- NO2 > 180 µg/m³: Traffic management review required
+
+TROUBLESHOOTING:
+Symptom: Negative PM readings
+- Cause: Inlet filter clogging or flow rate deviation
+- Action: Replace inlet filter, verify pump operation
+
+Symptom: Erratic gas analyzer readings
+- Cause: Zero drift or span shift
+- Action: Perform immediate calibration, check for leaks
+
+Symptom: Data transmission failure
+- Cause: Network connectivity or modem malfunction
+- Action: Restart data logger, verify SIM card balance, check router
+
+Symptom: High baseline drift in SO2/NO2
+- Cause: Contaminated optical cells
+- Action: Clean reaction chamber, replace zero air filter
+
+EMERGENCY PROCEDURES:
+Power Failure:
+- UPS should provide minimum 4 hours backup
+- Switch to manual sampling mode if prolonged outage expected
+- Log downtime duration and reason
+
+Extreme Weather:
+- Secure monitoring shelter during high winds
+- Elevate equipment during flood warnings
+- Install temporary shielding during dust storms
+
+Equipment Malfunction:
+- Switch to redundant analyzer if available
+- Notify central control room within 30 minutes
+- Arrange emergency maintenance within 4 hours
+
+QUALITY ASSURANCE/QUALITY CONTROL (QA/QC):
+- Data capture target: >90% uptime per month
+- Precision: Coefficient of variation <5% for replicate measurements
+- Accuracy: ±10% of reference method
+- Detection limits as per CPCB guidelines
+- Annual inter-laboratory comparison mandatory
+
+DATA MANAGEMENT:
+- Raw data archived for minimum 10 years
+- 15-minute averages calculated and transmitted
+- Hourly, daily, monthly summaries auto-generated
+- Annual data validation and reporting
+- Public dashboard updated every 15 minutes
+
+PERSONNEL REQUIREMENTS:
+- Station Operator: Diploma in Environmental Science/Electronics
+- Maintenance Technician: ITI certificate in Electronics/Instrumentation
+- QA Officer: Degree in Environmental Engineering
+- Training: 40 hours initial + 16 hours annual refresher
+
+REPORTING:
+- Real-time data: Continuous to CPCB/SPCB servers
+- Daily summary: Email by 10:00 hours next day
+- Monthly report: Submitted by 5th of following month
+- Annual compliance report: By January 31st
+- Immediate incident reports: Within 1 hour of detection
+
+REGULATORY COMPLIANCE:
+- Central Pollution Control Board (CPCB) Guidelines 2015
+- National Ambient Air Quality Monitoring Network (NAAM) protocols
+- ISO 9001:2015 Quality Management System
+- Bureau of Indian Standards (BIS) specifications
+
+REVISION HISTORY:
+Version 3.2 - July 2026 - Updated GRAP thresholds
+Version 3.1 - January 2026 - Added IoT integration protocols
+Version 3.0 - July 2025 - Aligned with revised CPCB norms
+
